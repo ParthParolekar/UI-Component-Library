@@ -1,0 +1,14 @@
+@import "./colors.css";
+@import "./layout.css";
+@import "./spacing.css";
+@import "./typography.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
