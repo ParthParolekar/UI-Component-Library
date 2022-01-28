@@ -1,0 +1,23 @@
+:root {
+  --primary: #5900ff;
+  --primary-light: #742aff;
+  --primary-dark: #36009b;
+  --primary-hover: #4100bb;
+
+  --secondary: #212121;
+  --secondary-hover: #131313;
+
+  --success: #198754;
+  --success-hover: #147045;
+
+  --danger: #dc3545;
+  --danger-hover: #aa2633;
+
+  --warning: #ffc107;
+  --warning-hover: #cf9d07;
+
+  --link: #0000ff;
+
+  --white: #fff;
+  --off-white: rgb(209, 209, 209);
+}
