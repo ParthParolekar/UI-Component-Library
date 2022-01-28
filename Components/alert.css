@@ -1,0 +1,83 @@
+@import "../style-guide/style-guide.css";
+
+.alert {
+  width: 40%;
+  margin: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background: transparent;
+  text-align: start;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alert i {
+  cursor: pointer;
+}
+
+/* Basic Alert */
+
+.alert-primary {
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.alert-secondary {
+  color: var(--white);
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.alert-success {
+  color: var(--white);
+  background-color: var(--success);
+  border: 1px solid var(--success);
+}
+
+.alert-danger {
+  color: var(--white);
+  background-color: var(--danger);
+  border: 1px solid var(--danger);
+}
+
+.alert-warning {
+  color: var(--white);
+  background-color: var(--warning);
+  border: 1px solid var(--warning);
+}
+
+/* Outline Alert */
+
+.alert-outline-primary {
+  color: var(--primary);
+  background-color: transparent;
+  border: 1px solid var(--primary);
+}
+
+.alert-outline-secondary {
+  color: var(--secondary);
+  background-color: transparent;
+  border: 1px solid var(--secondary);
+}
+
+.alert-outline-success {
+  color: var(--success);
+  background-color: transparent;
+  border: 1px solid var(--success);
+}
+
+.alert-outline-danger {
+  color: var(--danger);
+  background-color: transparent;
+  border: 1px solid var(--danger);
+}
+
+.alert-outline-warning {
+  color: var(--warning);
+  background-color: transparent;
+  border: 1px solid var(--warning);
+}
