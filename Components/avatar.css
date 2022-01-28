@@ -1,0 +1,56 @@
+@import "../style-guide/style-guide.css";
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 0.25rem;
+}
+
+.avatar-xsm {
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatar-sm {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-md {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar-lg {
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar-xlg {
+  width: 7rem;
+  height: 7rem;
+}
+
+/* Avatar Outline */
+
+.avatar-outline-primary {
+  border: 4px solid var(--primary);
+}
+
+.avatar-outline-secondary {
+  border: 4px solid var(--secondary);
+}
+
+.avatar-outline-success {
+  border: 4px solid var(--success);
+}
+
+.avatar-outline-danger {
+  border: 4px solid var(--danger);
+}
+
+.avatar-outline-warning {
+  border: 4px solid var(--warning);
+}

@@ -62,6 +62,10 @@
 
 /* MARGIN */
 
+.mg-sm {
+  margin: 1rem;
+}
+
 /* top-bottom */
 
 .mg-xxsm-top-bottom {
