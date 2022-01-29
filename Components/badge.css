@@ -1,5 +1,20 @@
 /* BADGE COMPONENT */
 
+.badge {
+  font-weight: 900;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 5%;
+  right: 0%;
+  min-width: 1rem;
+  max-width: fit-content;
+  min-height: 1rem;
+  max-height: fit-content;
+  border-radius: 100rem;
+  text-align: center;
+  padding: 0.1rem;
+}
+
 /* Badge on Avatar */
 
 .badge-on-avatar {
@@ -15,22 +30,6 @@
 
 .badge-on-icon i {
   font-size: 1.5rem;
-}
-
-.badge {
-  font-family: inherit;
-  font-weight: 900;
-  font-size: 0.8rem;
-  position: absolute;
-  top: 5%;
-  right: 0%;
-  min-width: 1rem;
-  max-width: fit-content;
-  min-height: 1rem;
-  max-height: fit-content;
-  border-radius: 100rem;
-  text-align: center;
-  padding: 0.1rem;
 }
 
 .badge-primary {
