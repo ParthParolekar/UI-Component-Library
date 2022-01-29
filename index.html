@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./Components/alert.css" />
-    <link rel="stylesheet" href="./Components/avatar.css" />
+    <link rel="stylesheet" href="./Components/components.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,8 +23,9 @@
     <title>Document</title>
   </head>
   <body class="mg-sm">
+    <!-- ALERT COMPONENT -->
+
     <section class="component">
-      <!-- ALERT COMPONENT -->
       <h1>Alert Component</h1>
 
       <h3 class="mg-sm-top-bottom">Basic Alert</h3>
@@ -71,10 +71,13 @@
       <div class="alert alert-outline-warning">
         This is a Warning Outline Alert<i class="fas fa-times"></i>
       </div>
+    </section>
 
-      <hr />
+    <hr />
 
-      <!-- AVATAR COMPONENT -->
+    <!-- AVATAR COMPONENT -->
+
+    <section class="component">
       <h1 class="mg-lg-top-bottom">Avatar Component</h1>
 
       <h3>Avatar</h3>
@@ -168,6 +171,164 @@
         alt="Avatar"
         class="avatar avatar-xlg avatar-outline-warning"
       />
+    </section>
+
+    <hr />
+
+    <!-- BADGE COMPONENT -->
+
+    <section class="component">
+      <h1 class="mg-lg-top-bottom">Badge Component</h1>
+
+      <h3>Badge on Avatar</h3>
+
+      <div class="flex-wrap">
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-primary"></span>
+        </div>
+
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-secondary"></span>
+        </div>
+
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-success"></span>
+        </div>
+
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-danger"></span>
+        </div>
+
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-warning"></span>
+        </div>
+      </div>
+
+      <h3 class="mg-sm-top-bottom">Number Badge on Avatar</h3>
+      <div class="flex-wrap">
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-primary number-badge">0</span>
+        </div>
+
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-secondary">1</span>
+        </div>
+
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-success">2</span>
+        </div>
+
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-danger">3</span>
+        </div>
+
+        <div class="badge-on-avatar">
+          <img
+            src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg"
+            alt="Avatar"
+            class="avatar"
+          />
+          <span class="badge badge-warning">4</span>
+        </div>
+      </div>
+
+      <h3 class="mg-sm-top-bottom">Badge on Icon</h3>
+
+      <div class="badge-on-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="badge badge-primary icon-badge"></span>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- BUTTON COMPONENT -->
+    <section class="component">
+      <h1>Button Component</h1>
+
+      <h3 class="mg-sm-top-bottom">Solid Button</h3>
+
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-warning">Warning</button>
+
+      <h3 class="mg-sm-top-bottom">Button Outline</h3>
+
+      <button class="btn btn-outline-primary">Primary Outline</button>
+      <button class="btn btn-outline-secondary">Secondary Outline</button>
+      <button class="btn btn-outline-success">Success Outline</button>
+      <button class="btn btn-outline-danger">Danger Outline</button>
+      <button class="btn btn-outline-warning">Warning Outline</button>
+
+      <h3 class="mg-sm-top-bottom">Link Button</h3>
+
+      <button class="btn btn-link">
+        <a href="" class="link">Link</a>
+      </button>
+
+      <h3 class="mg-sm-top-bottom">Icon Button</h3>
+      <button class="btn btn-icon btn-primary">
+        <i class="fas fa-shopping-cart"></i>
+      </button>
+
+      <button class="btn btn-icon btn-outline-secondary">
+        <i class="fas fa-shopping-cart"></i>
+      </button>
+
+      <h3 class="mg-sm-top-bottom">Floating Action Button</h3>
+
+      <div class="floating-action-btn">
+        <button class="btn btn-icon btn-secondary">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
     </section>
   </body>
 </html>

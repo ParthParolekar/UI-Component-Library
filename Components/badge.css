@@ -1,0 +1,54 @@
+/* BADGE COMPONENT */
+
+.badge {
+  font-weight: 900;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 5%;
+  right: 0%;
+  min-width: 1rem;
+  max-width: fit-content;
+  min-height: 1rem;
+  max-height: fit-content;
+  border-radius: 100rem;
+  text-align: center;
+  padding: 0.1rem;
+}
+
+/* Badge on Avatar */
+
+.badge-on-avatar {
+  position: relative;
+  width: max-content;
+}
+
+.badge-on-icon {
+  position: relative;
+  width: max-content;
+  padding: 1rem;
+}
+
+.badge-on-icon i {
+  font-size: 1.5rem;
+}
+
+.badge-primary {
+  background-color: var(--primary);
+}
+
+.badge-secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.badge-success {
+  background-color: var(--success);
+}
+
+.badge-danger {
+  background-color: var(--danger);
+}
+
+.badge-warning {
+  background-color: var(--warning);
+}
