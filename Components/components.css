@@ -4,3 +4,8 @@
 @import "./button.css";
 @import "./input.css";
 @import "./image.css";
+@import "./card.css";
+
+.component {
+  margin: 1rem 0;
+}
