@@ -1,4 +1,4 @@
-/* INPUT COMPONENT */
+@import "../style-guide/style-guide.css";
 
 .input {
   display: flex;
@@ -23,8 +23,6 @@
   border: 1px solid var(--secondary);
   outline: none;
 }
-
-/* Validation style */
 
 .input-success > input {
   border: 1px solid var(--success);

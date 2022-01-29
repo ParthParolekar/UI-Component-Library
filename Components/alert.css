@@ -50,8 +50,6 @@
   border: 1px solid var(--warning);
 }
 
-/* Outline Alert */
-
 .alert-outline-primary {
   color: var(--primary);
   background-color: transparent;

@@ -1,4 +1,4 @@
-/* BADGE COMPONENT */
+@import "../style-guide/style-guide.css";
 
 .badge {
   font-weight: 900;
@@ -14,8 +14,6 @@
   text-align: center;
   padding: 0.1rem;
 }
-
-/* Badge on Avatar */
 
 .badge-on-avatar {
   position: relative;
