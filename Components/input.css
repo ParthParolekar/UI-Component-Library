@@ -1,0 +1,43 @@
+/* INPUT COMPONENT */
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  background-color: var(--white);
+  position: relative;
+}
+
+.input > label {
+  background-color: var(--white);
+  width: max-content;
+  font-size: 0.7rem;
+  padding: 0 0.4rem;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+}
+
+.input > input {
+  padding: 0.5rem;
+  border: 1px solid var(--secondary);
+  outline: none;
+}
+
+/* Validation style */
+
+.input-success > input {
+  border: 1px solid var(--success);
+}
+
+.input-success > label {
+  color: var(--success);
+}
+
+.input-danger > input {
+  border: 1px solid var(--danger);
+}
+
+.input-danger > label {
+  color: var(--danger);
+}
