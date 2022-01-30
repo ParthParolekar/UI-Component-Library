@@ -28,6 +28,7 @@
 
 .badge-on-icon i {
   font-size: 1.5rem;
+  color: var(--white);
 }
 
 .badge-primary {
@@ -35,8 +36,7 @@
 }
 
 .badge-secondary {
-  background-color: var(--secondary);
-  color: var(--white);
+  background-color: var(--white);
 }
 
 .badge-success {

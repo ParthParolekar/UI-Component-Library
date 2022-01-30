@@ -1,0 +1,6 @@
+@import "./Components/components.css";
+@import "./style-guide/style-guide.css";
+
+body {
+  background-color: var(--secondary);
+}

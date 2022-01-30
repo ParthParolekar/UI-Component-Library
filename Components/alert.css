@@ -28,8 +28,8 @@
 
 .alert-secondary {
   color: var(--white);
-  background-color: var(--secondary);
-  border: 1px solid var(--secondary);
+  background-color: var(--black);
+  border: 1px solid var(--black);
 }
 
 .alert-success {
@@ -57,9 +57,9 @@
 }
 
 .alert-outline-secondary {
-  color: var(--secondary);
+  color: var(--white);
   background-color: transparent;
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--white);
 }
 
 .alert-outline-success {

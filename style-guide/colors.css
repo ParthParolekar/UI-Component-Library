@@ -19,5 +19,7 @@
   --link: #0000ff;
 
   --white: #fff;
+  --black: #000;
+  --white-hover: rgb(224, 224, 224);
   --off-white: rgb(209, 209, 209);
 }

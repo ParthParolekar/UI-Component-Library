@@ -3,8 +3,7 @@
 .card {
   margin: 2rem;
   width: 20rem;
-  /* height: 10rem; */
-  /* box-shadow: 0 2px 3px 0; */
+  background-color: var(--black);
 }
 
 .card-shadow {
@@ -63,6 +62,7 @@
   font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.02rem;
+  color: var(--white);
 }
 
 .card-buttons {
@@ -76,7 +76,7 @@
   left: 0;
   top: 1rem;
   margin-top: 0.5rem;
-  color: white;
+  color: var(--white);
   font-weight: 600;
 }
 

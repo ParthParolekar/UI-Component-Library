@@ -29,15 +29,15 @@
 }
 
 .btn-secondary {
-  background: var(--secondary);
-  color: var(--white);
-  border-color: var(--secondary);
+  background: var(--white);
+  color: var(--black);
+  border-color: var(--white);
 }
 
 .btn-secondary:hover {
-  background: var(--secondary-hover);
-  color: var(--white);
-  border-color: var(--secondary-hover);
+  background: var(--white-hover);
+  color: var(--black);
+  border-color: var(--white-hover);
 }
 
 .btn-success {
@@ -92,14 +92,14 @@
 
 .btn-outline-secondary {
   background: transparent;
-  color: var(--secondary);
-  border-color: var(--secondary);
+  color: var(--white);
+  border-color: var(--white);
 }
 
 .btn-outline-secondary:hover {
-  background: var(--secondary);
-  color: var(--white);
-  border-color: var(--secondary);
+  background: var(--white);
+  color: var(--black);
+  border-color: var(--white);
 }
 
 .btn-outline-success {
