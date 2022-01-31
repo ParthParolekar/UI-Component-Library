@@ -10,10 +10,7 @@
   box-shadow: 0px 0px 30px 0px var(--primary);
   position: sticky;
   top: 10px;
-}
-
-.cursor-pointer {
-  cursor: pointer;
+  z-index: 1;
 }
 
 .nav-section {
@@ -54,9 +51,5 @@
 
   .logo {
     display: none;
-  }
-
-  .nav-link a {
-    font-size: 1.3rem;
   }
 }
