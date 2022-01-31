@@ -3,7 +3,7 @@
 @import "./Documentation/Docs-CSS/documentation.css";
 
 html {
-  /* font-size: 90%; */
+  font-size: 90%;
   scroll-behavior: smooth;
 }
 
