@@ -18,6 +18,9 @@
 
   --link: #0000ff;
 
+  --shadow-dark: #131313;
+  --shadow-light: #292929;
+
   --white: #fff;
   --black: #000;
   --white-hover: rgb(224, 224, 224);

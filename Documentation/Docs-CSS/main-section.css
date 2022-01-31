@@ -10,7 +10,8 @@
   background-color: var(--secondary);
   color: var(--primary);
   border-radius: 20px;
-  box-shadow: 6px 6px 12px #131313, -6px -6px 12px #292929;
+  box-shadow: 6px 6px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
 }
 
 .blur-filter {
@@ -29,7 +30,6 @@
   margin: 2rem 0;
   padding: 2rem 1rem;
   background-color: var(--secondary);
-  /* box-shadow: inset 6px 6px 12px #131313, inset -6px -6px 12px #292929; */
   box-shadow: 0 0 10px var(--primary), inset 0 0 20px var(--primary);
   border-radius: 10px;
 }
