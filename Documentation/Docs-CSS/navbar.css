@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  width: 90vw;
+  margin: 1rem auto;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px 0px var(--primary);
+  position: sticky;
+  top: 10px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo-full {
+  display: none;
+  margin-left: 1rem;
+}
+
+.logo {
+  margin-left: 1rem;
+}
+
+.hamburger {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  margin: 0 1rem;
+}
+
+.nav-link a {
+  color: var(--black);
+  font-weight: 500;
+}
+
+.nav-link a:hover {
+  color: var(--secondary);
+}
+
+@media only screen and (min-width: 680px) {
+  .logo-full {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav-link a {
+    font-size: 1.3rem;
+  }
+}
