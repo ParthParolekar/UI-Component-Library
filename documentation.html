@@ -35,37 +35,125 @@
       </div>
       <ul class="nav-links nav-right nav-section">
         <li class="nav-link"><a href="#">Home</a></li>
-        <li class="nav-link">
-          <a href="#">Documentation</a>
-        </li>
+        <li class="nav-link"><a href="#">Documentation</a></li>
       </ul>
     </nav>
 
-    <main class="main">
-      <section class="sidebar" id="sidebar">
-        <ul>
-          <a class="sidebar-list" href="#alert">
-            <li>Alert</li>
-          </a>
-          <a class="sidebar-list" href="#avatar">
-            <li>Avatar</li>
-          </a>
-          <a class="sidebar-list" href="#badge">
-            <li>Badge</li>
-          </a>
-          <a class="sidebar-list" href="#button">
-            <li>Button</li>
-          </a>
-          <a class="sidebar-list" href="#card">
-            <li>Card</li>
-          </a>
-          <a class="sidebar-list" href="#image">
-            <li>Image</li>
-          </a>
-          <a class="sidebar-list" href="#input">
-            <li>Input</li>
-          </a>
-        </ul>
+    <aside class="sidebar" id="sidebar">
+      <ul>
+        <a class="sidebar-list" href="#alert">
+          <li>Alert</li>
+        </a>
+        <a class="sidebar-list" href="#avatar">
+          <li>Avatar</li>
+        </a>
+        <a class="sidebar-list" href="#badge">
+          <li>Badge</li>
+        </a>
+        <a class="sidebar-list" href="#button">
+          <li>Button</li>
+        </a>
+        <a class="sidebar-list" href="#card">
+          <li>Card</li>
+        </a>
+        <a class="sidebar-list" href="#image">
+          <li>Image</li>
+        </a>
+        <a class="sidebar-list" href="#input">
+          <li>Input</li>
+        </a>
+      </ul>
+    </aside>
+
+    <main class="main" id="main">
+      <!------------- ALERT COMPONENT ------------->
+      <section class="component-section" id="alert">
+        <h1 class="component-title">Alert</h1>
+
+        <p class="component-text text-sm">
+          An alert displays a short, important message in a way that attracts
+          the user's attention without interrupting the user's task.
+        </p>
+
+        <h3 class="component-subtitle">Basic Alert</h3>
+
+        <div class="component-display flex-column align-center">
+          <div class="alert alert-primary">
+            This is a Primary Alert<i class="fas fa-times"></i>
+          </div>
+
+          <div class="alert alert-secondary">
+            This is a Secondary Alert<i class="fas fa-times"></i>
+          </div>
+
+          <div class="alert alert-success">
+            This is a Success Alert<i class="fas fa-times"></i>
+          </div>
+
+          <div class="alert alert-danger">
+            This is a Danger Alert<i class="fas fa-times"></i>
+          </div>
+
+          <div class="alert alert-warning">
+            This is a Warning Alert<i class="fas fa-times"></i>
+          </div>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520This%2520is%2520a%2520Primary%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253E%250A%2520%2520This%2520is%2520a%2520Secondary%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520This%2520is%2520a%2520Success%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520This%2520is%2520a%2520Danger%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520This%2520is%2520a%2520Warning%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 766px;
+              height: 429px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <hr style="margin: 2rem 0" />
+
+        <h3 class="component-subtitle">Outlined Alert</h3>
+
+        <div class="component-display flex-column align-center">
+          <div class="alert alert-outline-primary">
+            This is a Primary Outline Alert<i class="fas fa-times"></i>
+          </div>
+
+          <div class="alert alert-outline-secondary">
+            This is a Secondary Outline Alert<i class="fas fa-times"></i>
+          </div>
+
+          <div class="alert alert-outline-success">
+            This is a Success Outline Alert<i class="fas fa-times"></i>
+          </div>
+
+          <div class="alert alert-outline-danger">
+            This is a Danger Outline Alert<i class="fas fa-times"></i>
+          </div>
+
+          <div class="alert alert-outline-warning">
+            This is a Warning Outline Alert<i class="fas fa-times"></i>
+          </div>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522alert%2520alert-outline-primary%2522%253E%250A%2520%2520This%2520is%2520a%2520Primary%2520Outline%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-outline-secondary%2522%253E%250A%2520%2520This%2520is%2520a%2520Secondary%2520Outline%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-outline-success%2522%253E%250A%2520%2520This%2520is%2520a%2520Success%2520Outline%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-outline-danger%2522%253E%250A%2520%2520This%2520is%2520a%2520Danger%2520Outline%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-outline-warning%2522%253E%250A%2520%2520This%2520is%2520a%2520Warning%2520Outline%2520Alert%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 766px;
+              height: 446px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
       </section>
     </main>
 
