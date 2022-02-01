@@ -1,6 +1,7 @@
 @import "./navbar.css";
 @import "./sidebar.css";
 @import "./main-section.css";
+@import "./footer.css";
 
 .cursor-pointer {
   cursor: pointer;

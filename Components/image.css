@@ -1,10 +1,5 @@
 @import "../style-guide/style-guide.css";
 
-.temporary-image-container {
-  width: 20vw;
-  height: 20vw;
-}
-
 .responsive-img {
   width: 100%;
   height: 100%;
@@ -12,5 +7,7 @@
 }
 
 .round-img {
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
 }

@@ -22,7 +22,9 @@
   padding: 0.5rem;
   border: 1px solid var(--black);
   outline: none;
-  background-color: var(--secondar);
+  background-color: var(--secondary);
+  width: 30vw;
+  color: white;
 }
 
 .input-success > input {
