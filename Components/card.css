@@ -3,11 +3,13 @@
 .card {
   margin: 2rem;
   width: 20rem;
-  background-color: var(--black);
+  background-color: var(--secondary);
+  border-radius: 20px;
 }
 
 .card-shadow {
-  box-shadow: 0 2px 3px 0;
+  box-shadow: 6px 6px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
 }
 
 .vertical-card {
@@ -53,12 +55,12 @@
 
 .card-subtext {
   font-size: 1rem;
-  font-weight: 700;
-  color: var(--primary);
+  font-weight: 500;
+  color: var(--white);
 }
 
 .card-description {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.02rem;
