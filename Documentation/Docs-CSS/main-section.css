@@ -5,10 +5,10 @@
 .component-section {
   width: 90vw;
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 3rem auto;
   height: fit-content;
   background-color: var(--secondary);
-  color: var(--primary);
+  color: var(--white);
   border-radius: 20px;
   box-shadow: 6px 6px 12px var(--shadow-dark),
     -6px -6px 12px var(--shadow-light);
