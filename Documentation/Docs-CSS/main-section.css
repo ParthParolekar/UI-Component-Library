@@ -5,7 +5,7 @@
 .component-section {
   width: 90vw;
   padding: 1rem;
-  margin: 3rem auto;
+  margin: 5rem auto;
   height: fit-content;
   background-color: var(--secondary);
   color: var(--white);
@@ -19,7 +19,7 @@
 }
 
 .component-subtitle {
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
 }
 
 .component-text {

@@ -21,14 +21,17 @@
 .logo-full {
   display: none;
   margin-left: 1rem;
+  color: var(--white);
 }
 
 .logo {
   margin-left: 1rem;
+  color: var(--white);
 }
 
 .hamburger {
   font-size: 1.5rem;
+  color: var(--white);
 }
 
 .nav-link {
@@ -36,7 +39,7 @@
 }
 
 .nav-link a {
-  color: var(--black);
+  color: var(--white);
   font-weight: 500;
 }
 
