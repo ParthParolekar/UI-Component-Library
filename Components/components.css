@@ -6,6 +6,4 @@
 @import "./image.css";
 @import "./card.css";
 
-.component {
-  margin: 1rem 0;
-}
+@import "../style-guide/style-guide.css";

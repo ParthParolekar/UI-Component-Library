@@ -1,5 +1,3 @@
-@import "../style-guide/style-guide.css";
-
 .input {
   display: flex;
   flex-direction: column;
