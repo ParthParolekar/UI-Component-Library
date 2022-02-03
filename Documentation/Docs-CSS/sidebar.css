@@ -8,6 +8,8 @@
   transition: 0.3s all;
   padding: 0.3rem 0;
   z-index: 1;
+  height: 70vh;
+  overflow-y: scroll;
 }
 
 .sidebar-list li {

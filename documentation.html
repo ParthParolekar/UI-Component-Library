@@ -31,7 +31,7 @@
       <div class="nav-left nav-section">
         <i class="fas fa-bars hamburger cursor-pointer" id="hamburger"></i>
         <h2 class="logo-full cursor-pointer">electron</h2>
-        <h2 class="logo cursor-pointer">e</h2>
+        <h2 class="logo cursor-pointer"></h2>
       </div>
       <ul class="nav-links nav-right nav-section">
         <li class="nav-link"><a href="./index.html">Home</a></li>
@@ -61,6 +61,9 @@
         </a>
         <a class="sidebar-list" href="#input">
           <li>Input</li>
+        </a>
+        <a class="sidebar-list" href="#navigation">
+          <li>Navigation</li>
         </a>
       </ul>
     </aside>
@@ -904,6 +907,64 @@
             style="
               width: 766px;
               height: 242px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <!------------- NAVIGATION COMPONENT ------------->
+
+      <section class="component-section" id="navigation">
+        <h1 class="component-title black">Navigation</h1>
+
+        <p class="component-text text-sm">
+          Navigation occurs between your app's destinations—that is, anywhere in
+          your app to which users can navigate. These destinations are connected
+          via actions.
+        </p>
+
+        <h3 class="component-subtitle">Navbar</h3>
+
+        <div class="component-display flex-row justify-center flex-wrap">
+          <nav class="navigation flex-row space-between align-center">
+            <div class="left-navigation flex-row align-center">
+              <i
+                class="fas fa-bars hamburger cursor-pointer"
+                id="hamburger"
+              ></i>
+              <h2 class="logo-full cursor-pointer">electron</h2>
+            </div>
+            <div class="search flex-row align-center space-between">
+              <input type="text" />
+              <i class="fas fa-search"></i>
+            </div>
+            <div
+              class="right-navigation navigation-icons flex-row align-center"
+            >
+              <div class="navigation-option">
+                <i class="fas fa-cog"></i>
+                <h4 class="option-name regular">settings</h4>
+              </div>
+              <div class="navigation-option">
+                <i class="fas fa-shopping-cart"></i>
+                <h4 class="option-name regular">cart</h4>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation%2520flex-row%2520space-between%2520align-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522left-navigation%2520flex-row%2520align-center%2522%253E%250A%2520%2520%2520%2520%253Ci%250A%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-bars%2520hamburger%2520cursor-pointer%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522hamburger%2522%250A%2520%2520%2520%2520%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522logo-full%2520cursor-pointer%2522%253Eelectron%253C%252Fh2%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522search%2520flex-row%2520align-center%2520space-between%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522right-navigation%2520navigation-icons%2520flex-row%2520align-center%2522%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-option%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-cog%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522option-name%2520regular%2522%253Esettings%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-option%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522option-name%2520regular%2522%253Ecart%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fnav%253E"
+            style="
+              width: 766px;
+              height: 614px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
