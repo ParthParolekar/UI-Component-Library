@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary);
-  width: 90vw;
+  width: 90%;
   margin: 1rem auto;
   padding: 0.25rem 1.5rem;
   border-radius: 5px;
@@ -45,6 +45,25 @@
 
 .nav-link a:hover {
   color: var(--secondary);
+}
+
+.search {
+  background-color: var(--primary-hover);
+  padding: 1rem;
+  width: 20vw;
+  height: 70%;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.search input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 85%;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--white);
 }
 
 @media only screen and (min-width: 680px) {
