@@ -1,0 +1,19 @@
+.modal {
+  background-color: var(--secondary);
+  box-shadow: 6px 6px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
+  max-width: 30%;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modal-title {
+  margin-bottom: 1rem;
+}
+
+.modal-dismiss {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
