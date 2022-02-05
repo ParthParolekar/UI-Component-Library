@@ -62,6 +62,9 @@
         <a class="sidebar-list" href="#input">
           <li>Input</li>
         </a>
+        <a class="sidebar-list" href="#modal">
+          <li>Modal</li>
+        </a>
         <a class="sidebar-list" href="#navigation">
           <li>Navigation</li>
         </a>
@@ -907,6 +910,47 @@
             style="
               width: 766px;
               height: 242px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <!------------- MODAL COMPONENT ------------->
+
+      <section class="component-section" id="modal">
+        <h1 class="component-title black">Modal</h1>
+
+        <p class="component-text text-sm">
+          The modal component provides a solid foundation for creating dialogs,
+          popovers, lightboxes and more.
+        </p>
+
+        <h3 class="component-subtitle">Modal</h3>
+
+        <div class="component-display flex-row justify-center flex-wrap">
+          <div class="modal">
+            <h3 class="modal-title">This is a modal</h3>
+            <p class="text-xsm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              nesciunt aliquam blanditiis, labore necessitatibus magni eligendi
+              distinctio tempora quo exercitationem.
+            </p>
+            <i class="fas fa-times modal-dismiss"></i>
+          </div>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2509%253Ch3%2520class%253D%2522modal-title%2522%253EThis%2520is%2520a%2520modal%253C%252Fh3%253E%250A%2509%253Cp%2520class%253D%2522text-xsm%2522%253E%250A%2509%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Esse%250A%2509%2520%2520nesciunt%2520aliquam%2520blanditiis%252C%2520labore%2520necessitatibus%2520magni%2520eligendi%250A%2509%2520%2520distinctio%2520tempora%2520quo%2520exercitationem.%250A%2509%253C%252Fp%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-times%2520modal-dismiss%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 766px;
+              height: 223px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
