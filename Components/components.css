@@ -7,5 +7,7 @@
 @import "./card.css";
 @import "./modal.css";
 @import "./navigation.css";
+@import "./list.css";
+@import "./grid.css";
 
 @import "../style-guide/style-guide.css";

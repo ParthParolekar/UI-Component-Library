@@ -1,0 +1,30 @@
+.list-container li {
+  background-color: var(--secondary-hover);
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}
+
+.unordered-list li {
+  list-style: disc;
+}
+
+.ordered-list li {
+  list-style-type: decimal;
+}
+
+.notification-list li {
+  background-color: var(--secondary);
+  padding: 1rem;
+  box-shadow: 6px 0px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
+}
+
+.notification-list li:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.notification-list li:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
