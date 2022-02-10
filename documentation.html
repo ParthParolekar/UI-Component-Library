@@ -56,17 +56,26 @@
         <a class="sidebar-list" href="#card">
           <li>Card</li>
         </a>
+        <a class="sidebar-list" href="#grid">
+          <li>Grid</li>
+        </a>
         <a class="sidebar-list" href="#image">
           <li>Image</li>
         </a>
         <a class="sidebar-list" href="#input">
           <li>Input</li>
         </a>
+        <a class="sidebar-list" href="#list">
+          <li>List</li>
+        </a>
         <a class="sidebar-list" href="#modal">
           <li>Modal</li>
         </a>
         <a class="sidebar-list" href="#navigation">
           <li>Navigation</li>
+        </a>
+        <a class="sidebar-list" href="#typography">
+          <li>Typography</li>
         </a>
       </ul>
     </aside>
@@ -786,6 +795,180 @@
         </div>
       </section>
 
+      <!------------- GRID COMPONENT ------------->
+
+      <section class="component-section" id="grid">
+        <h1 class="component-title black">Grid</h1>
+
+        <p class="component-text text-sm">
+          The grid creates visual consistency between layouts while allowing
+          flexibility across a wide variety of designs.
+        </p>
+
+        <h3 class="component-subtitle">Grid with 2 items</h3>
+
+        <div class="component-display">
+          <div class="grid">
+            <div class="card card-shadow vertical-card">
+              <div class="card-header">
+                <span class="badge badge-primary">New</span>
+                <img
+                  src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/zeus/common/social-share/s5-meta-wz.jpg"
+                  alt="Avatar"
+                  class="card-image"
+                />
+                <i class="fas fa-times card-dismiss"></i>
+              </div>
+              <div class="card-content">
+                <div class="card-title">Call of Duty Warzone</div>
+                <div class="card-subtext">
+                  <span class="discount">50%</span
+                  ><span class="cost-price">/- 2,000</span
+                  ><span class="selling-price">/- 1,000</span>
+                </div>
+              </div>
+              <div class="card-buttons">
+                <button class="btn btn-primary">ADD TO CART</button>
+                <button class="btn btn-outline-secondary">WISHLIST</button>
+              </div>
+            </div>
+            <div class="card card-shadow vertical-card">
+              <div class="card-header">
+                <span class="badge badge-primary">New</span>
+                <img
+                  src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/zeus/common/social-share/s5-meta-wz.jpg"
+                  alt="Avatar"
+                  class="card-image"
+                />
+                <i class="fas fa-times card-dismiss"></i>
+              </div>
+              <div class="card-content">
+                <div class="card-title">Call of Duty Warzone</div>
+                <div class="card-subtext">
+                  <span class="discount">50%</span
+                  ><span class="cost-price">/- 2,000</span
+                  ><span class="selling-price">/- 1,000</span>
+                </div>
+              </div>
+              <div class="card-buttons">
+                <button class="btn btn-primary">ADD TO CART</button>
+                <button class="btn btn-outline-secondary">WISHLIST</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2520vertical-card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimgs.callofduty.com%252Fcontent%252Fdam%252Fatvi%252Fcallofduty%252Fcod-touchui%252Fzeus%252Fcommon%252Fsocial-share%252Fs5-meta-wz.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520card-dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECall%2520of%2520Duty%2520Warzone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtext%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E50%2525%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522cost-price%2522%253E%252F-%25202%252C000%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522selling-price%2522%253E%252F-%25201%252C000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EWISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2520vertical-card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimgs.callofduty.com%252Fcontent%252Fdam%252Fatvi%252Fcallofduty%252Fcod-touchui%252Fzeus%252Fcommon%252Fsocial-share%252Fs5-meta-wz.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520card-dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECall%2520of%2520Duty%2520Warzone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtext%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E50%2525%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522cost-price%2522%253E%252F-%25202%252C000%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522selling-price%2522%253E%252F-%25201%252C000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EWISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 766px;
+              height: 1005px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <hr class="mg-lg-top-bottom" />
+
+        <h3 class="component-subtitle">Grid with 3 items</h3>
+
+        <div class="component-display">
+          <div class="grid">
+            <div class="card card-shadow vertical-card">
+              <div class="card-header">
+                <span class="badge badge-primary">New</span>
+                <img
+                  src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/zeus/common/social-share/s5-meta-wz.jpg"
+                  alt="Avatar"
+                  class="card-image"
+                />
+                <i class="fas fa-times card-dismiss"></i>
+              </div>
+              <div class="card-content">
+                <div class="card-title">Call of Duty Warzone</div>
+                <div class="card-subtext">
+                  <span class="discount">50%</span
+                  ><span class="cost-price">/- 2,000</span
+                  ><span class="selling-price">/- 1,000</span>
+                </div>
+              </div>
+              <div class="card-buttons">
+                <button class="btn btn-primary">ADD TO CART</button>
+                <button class="btn btn-outline-secondary">WISHLIST</button>
+              </div>
+            </div>
+            <div class="card card-shadow vertical-card">
+              <div class="card-header">
+                <span class="badge badge-primary">New</span>
+                <img
+                  src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/zeus/common/social-share/s5-meta-wz.jpg"
+                  alt="Avatar"
+                  class="card-image"
+                />
+                <i class="fas fa-times card-dismiss"></i>
+              </div>
+              <div class="card-content">
+                <div class="card-title">Call of Duty Warzone</div>
+                <div class="card-subtext">
+                  <span class="discount">50%</span
+                  ><span class="cost-price">/- 2,000</span
+                  ><span class="selling-price">/- 1,000</span>
+                </div>
+              </div>
+              <div class="card-buttons">
+                <button class="btn btn-primary">ADD TO CART</button>
+                <button class="btn btn-outline-secondary">WISHLIST</button>
+              </div>
+            </div>
+            <div class="card card-shadow vertical-card">
+              <div class="card-header">
+                <span class="badge badge-primary">New</span>
+                <img
+                  src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/zeus/common/social-share/s5-meta-wz.jpg"
+                  alt="Avatar"
+                  class="card-image"
+                />
+                <i class="fas fa-times card-dismiss"></i>
+              </div>
+              <div class="card-content">
+                <div class="card-title">Call of Duty Warzone</div>
+                <div class="card-subtext">
+                  <span class="discount">50%</span
+                  ><span class="cost-price">/- 2,000</span
+                  ><span class="selling-price">/- 1,000</span>
+                </div>
+              </div>
+              <div class="card-buttons">
+                <button class="btn btn-primary">ADD TO CART</button>
+                <button class="btn btn-outline-secondary">WISHLIST</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2520vertical-card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimgs.callofduty.com%252Fcontent%252Fdam%252Fatvi%252Fcallofduty%252Fcod-touchui%252Fzeus%252Fcommon%252Fsocial-share%252Fs5-meta-wz.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520card-dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECall%2520of%2520Duty%2520Warzone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtext%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E50%2525%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522cost-price%2522%253E%252F-%25202%252C000%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522selling-price%2522%253E%252F-%25201%252C000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EWISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2520vertical-card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimgs.callofduty.com%252Fcontent%252Fdam%252Fatvi%252Fcallofduty%252Fcod-touchui%252Fzeus%252Fcommon%252Fsocial-share%252Fs5-meta-wz.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520card-dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECall%2520of%2520Duty%2520Warzone%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtext%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E50%2525%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522cost-price%2522%253E%252F-%25202%252C000%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522selling-price%2522%253E%252F-%25201%252C000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-buttons%2522%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253EWISHLIST%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2520vertical-card%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-primary%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimgs.callofduty.com%252Fcontent%252Fdam%252Fatvi%252Fcallofduty%252Fcod-touchui%252Fzeus%252Fcommon%252Fsocial-share%252Fs5-meta-wz.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-t"
+            style="
+              width: 766px;
+              height: 1489px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+
       <!------------- IMAGE COMPONENT ------------->
 
       <section class="component-section" id="image">
@@ -920,6 +1103,100 @@
         </div>
       </section>
 
+      <!------------- LIST COMPONENT ------------->
+
+      <section class="component-section" id="list">
+        <h1 class="component-title black">List</h1>
+
+        <p class="component-text text-sm">
+          Lists are a continuous group of text or images. They are composed of
+          items containing primary and supplemental actions, which are
+          represented by icons and text.
+        </p>
+
+        <h3 class="component-subtitle">Ordered List</h3>
+
+        <div class="component-display flex-row justify-center flex-wrap">
+          <ol class="list-container ordered-list">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ol>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list-container%2520ordered-list%2522%253E%250A%2520%2520%253Cli%253Elist%2520item%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item%25203%253C%252Fli%253E%250A%253C%252Fol%253E"
+            style="
+              width: 766px;
+              height: 148px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <hr class="mg-lg-top-bottom" />
+
+        <h3 class="component-subtitle">Unordered-list</h3>
+
+        <div class="component-display flex-column align-center flex-wrap">
+          <ul class="list-container unordered-list">
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+          </ul>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-container%2520unordered-list%2522%253E%250A%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%2520%2520%253Cli%253Elist%2520item%253C%252Fli%253E%250A%253C%252Ful%253E"
+            style="
+              width: 766px;
+              height: 148px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <hr class="mg-lg-top-bottom" />
+
+        <h3 class="component-subtitle">Notification list</h3>
+
+        <div class="component-display flex-row justify-center flex-wrap">
+          <ul class="notification-list">
+            <li>Notification 1</li>
+            <li>Notification 2</li>
+            <li>Notification 3</li>
+          </ul>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522notification-list%2522%253E%250A%2520%2520%253Cli%253ENotification%25201%253C%252Fli%253E%250A%2520%2520%253Cli%253ENotification%25202%253C%252Fli%253E%250A%2520%2520%253Cli%253ENotification%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+            style="
+              width: 766px;
+              height: 148px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+
       <!------------- MODAL COMPONENT ------------->
 
       <section class="component-section" id="modal">
@@ -1008,6 +1285,121 @@
             style="
               width: 766px;
               height: 614px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <!------------- TYPOGRAPHY COMPONENT ------------->
+
+      <section class="component-section" id="typography">
+        <h1 class="component-title black">Typography</h1>
+
+        <p class="component-text text-sm">
+          Use typography to present your design and content as clearly and
+          efficiently as possible.
+        </p>
+
+        <h3 class="component-subtitle">Heading</h3>
+
+        <div class="component-display flex-column">
+          <h1>This is an h1 heading</h1>
+          <h2>This is an h2 heading</h2>
+          <h3>This is an h3 heading</h3>
+          <h4>This is an h4 heading</h4>
+          <h5>This is an h5 heading</h5>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EThis%2520is%2520an%2520h1%2520heading%253C%252Fh1%253E%250A%253Ch2%253EThis%2520is%2520an%2520h2%2520heading%253C%252Fh2%253E%250A%253Ch3%253EThis%2520is%2520an%2520h3%2520heading%253C%252Fh3%253E%250A%253Ch4%253EThis%2520is%2520an%2520h4%2520heading%253C%252Fh4%253E%250A%253Ch5%253EThis%2520is%2520an%2520h5%2520heading%253C%252Fh5%253E"
+            style="
+              width: 766px;
+              height: 167px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <hr class="mg-lg-top-bottom" />
+
+        <h3 class="component-subtitle">Paragraph</h3>
+
+        <div class="component-display flex-column">
+          <p class="text-xlg">This is an extra-large text</p>
+          <p class="text-lg">This is a large text</p>
+          <p class="text-md">This is a medium text</p>
+          <p class="text-sm">This is a small text</p>
+          <p class="text-xsm">This is an extra-small text</p>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-xlg%2522%253EThis%2520is%2520an%2520extra-large%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lg%2522%253EThis%2520is%2520a%2520large%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-md%2522%253EThis%2520is%2520a%2520medium%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-sm%2522%253EThis%2520is%2520a%2520small%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-xsm%2522%253EThis%2520is%2520an%2520extra-small%2520text%253C%252Fp%253E"
+            style="
+              width: 766px;
+              height: 167px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <hr class="mg-lg-top-bottom" />
+
+        <h3 class="component-subtitle">Gray text</h3>
+
+        <div class="component-display flex-column">
+          <h3 class="gray-text">This is a gray text</h3>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%2520class%253D%2522gray-text%2522%253EThis%2520is%2520a%2520gray%2520text%253C%252Fh3%253E"
+            style="
+              width: 766px;
+              height: 93px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+
+        <hr class="mg-lg-top-bottom" />
+
+        <h3 class="component-subtitle">Text alignment</h3>
+
+        <div class="component-display flex-column">
+          <h4 class="txt-left">This is a left aligned text</h4>
+          <h4 class="txt-center">This is a center aligned text</h4>
+          <h4 class="txt-right">This is a right aligned text</h4>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch4%2520class%253D%2522txt-left%2522%253EThis%2520is%2520a%2520left%2520aligned%2520text%253C%252Fh4%253E%250A%253Ch4%2520class%253D%2522txt-center%2522%253EThis%2520is%2520a%2520center%2520aligned%2520text%253C%252Fh4%253E%250A%253Ch4%2520class%253D%2522txt-right%2522%253EThis%2520is%2520a%2520right%2520aligned%2520text%253C%252Fh4%253E"
+            style="
+              width: 766px;
+              height: 130px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
