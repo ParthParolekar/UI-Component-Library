@@ -74,6 +74,12 @@
         <a class="sidebar-list" href="#navigation">
           <li>Navigation</li>
         </a>
+        <a class="sidebar-list" href="#rating">
+          <li>Rating</li>
+        </a>
+        <a class="sidebar-list" href="#toast">
+          <li>Toast</li>
+        </a>
         <a class="sidebar-list" href="#typography">
           <li>Typography</li>
         </a>
@@ -1285,6 +1291,148 @@
             style="
               width: 766px;
               height: 614px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <!------------- RATING COMPONENT ------------->
+
+      <section class="component-section" id="rating">
+        <h1 class="component-title black">Rating</h1>
+
+        <p class="component-text text-sm">
+          Ratings provide insight regarding others' opinions and experiences,
+          and can allow the user to submit a rating of their own.
+        </p>
+
+        <h3 class="component-subtitle">Read-only Rating</h3>
+
+        <div class="component-display flex-row justify-center flex-wrap">
+          <div class="rating rating-excellent">
+            <p class="rating-given">5</p>
+            <p class="total-rating">5</p>
+          </div>
+
+          <div class="rating rating-good">
+            <p class="rating-given">4</p>
+            <p class="total-rating">5</p>
+          </div>
+
+          <div class="rating rating-average">
+            <p class="rating-given">3</p>
+            <p class="total-rating">5</p>
+          </div>
+
+          <div class="rating rating-bad">
+            <p class="rating-given">2</p>
+            <p class="total-rating">5</p>
+          </div>
+
+          <div class="rating rating-poor">
+            <p class="rating-given">1</p>
+            <p class="total-rating">5</p>
+          </div>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520rating-excellent%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E5%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2520rating-good%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E4%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2520rating-average%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E3%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2520rating-bad%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E2%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2520rating-poor%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E1%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 766px;
+              height: 539px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            laoding="lazy"
+          >
+          </iframe>
+        </div>
+
+        <hr class="mg-lg-top-bottom" />
+
+        <h3 class="component-subtitle">User-input Rating</h3>
+
+        <div class="component-display flex-row justify-center flex-wrap">
+          <div class="rating user-rating-excellent">
+            <p class="rating-given">5</p>
+            <p class="total-rating">5</p>
+          </div>
+
+          <div class="rating user-rating-good">
+            <p class="rating-given">4</p>
+            <p class="total-rating">5</p>
+          </div>
+
+          <div class="rating user-rating-average">
+            <p class="rating-given">3</p>
+            <p class="total-rating">5</p>
+          </div>
+
+          <div class="rating user-rating-bad">
+            <p class="rating-given">2</p>
+            <p class="total-rating">5</p>
+          </div>
+
+          <div class="rating user-rating-poor">
+            <p class="rating-given">1</p>
+            <p class="total-rating">5</p>
+          </div>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520user-rating-excellent%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E5%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2520user-rating-good%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E4%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2520user-rating-average%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E3%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2520user-rating-bad%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E2%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522rating%2520user-rating-poor%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522rating-given%2522%253E1%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522total-rating%2522%253E5%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 766px;
+              height: 520px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <!------------- TOAST COMPONENT ------------->
+
+      <section class="component-section" id="toast">
+        <h1 class="component-title black">Toast</h1>
+
+        <p class="component-text text-sm">
+          Send push notifications to your visitors with a toast, a lightweight
+          and easily customizable alert message.
+        </p>
+
+        <h3 class="component-subtitle">Toast</h3>
+
+        <div class="component-display flex-row justify-center flex-wrap">
+          <div class="toast">
+            <h4>
+              You have two new messages!
+              <a href="#" class="link">Click to view</a>
+            </h4>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+
+        <div class="component-code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=none&l=auto&width=766&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%2520%253Ch4%253EYou%2520have%2520two%2520new%2520messages%21%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link%2522%253EClick%2520to%2520view%253C%252Fa%253E%253C%252Fh4%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 766px;
+              height: 148px;
               border: 0;
               transform: scale(1);
               overflow: hidden;

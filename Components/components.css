@@ -9,5 +9,7 @@
 @import "./navigation.css";
 @import "./list.css";
 @import "./grid.css";
+@import "./rating.css";
+@import "./toast.css";
 
 @import "../style-guide/style-guide.css";

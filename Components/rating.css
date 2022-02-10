@@ -1,0 +1,93 @@
+.rating {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+.rating-given {
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-bottom: 1px solid white;
+}
+
+.total-rating {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.rating-excellent {
+  background-color: var(--primary);
+}
+
+.rating-good {
+  background-color: var(--success);
+}
+
+.rating-average {
+  background-color: var(--warning);
+}
+
+.rating-bad {
+  background-color: orangered;
+}
+
+.rating-poor {
+  background-color: var(--danger);
+}
+
+.user-rating-excellent {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+}
+
+.user-rating-good {
+  background-color: transparent;
+  border: 1px solid var(--success);
+}
+
+.user-rating-average {
+  background-color: transparent;
+  border: 1px solid var(--warning);
+}
+
+.user-rating-bad {
+  background-color: transparent;
+  border: 1px solid orangered;
+}
+
+.user-rating-poor {
+  background-color: transparent;
+  border: 1px solid var(--danger);
+}
+
+.user-rating-excellent:hover {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.user-rating-good:hover {
+  background-color: var(--success);
+  border: 1px solid var(--success);
+}
+
+.user-rating-average:hover {
+  background-color: var(--warning);
+  border: 1px solid var(--warning);
+}
+
+.user-rating-bad:hover {
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+
+.user-rating-poor:hover {
+  background-color: var(--danger);
+  border: 1px solid var(--danger);
+}
